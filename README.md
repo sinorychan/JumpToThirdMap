@@ -1,5 +1,5 @@
 # JumpToThirdMap
-跳转到第三方地图 （百度 谷歌 腾讯 高德 苹果）
+跳转到第三方地图 （百度 谷歌 腾讯 高德 苹果） 及 坐标转换工具  CLLocation+Extension.swift
 
    
     info.plist 文件添加
@@ -34,4 +34,4 @@
             print("打开失败")
         }
 
-     地图坐标转换工具 CLLocation+Extension.swift
+ 
