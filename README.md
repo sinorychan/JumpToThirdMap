@@ -25,7 +25,8 @@
                                     targetLong: long,
                                     targetName: name)
 
-
+       //将火星坐标转化为百度坐标 
+       let baiduLocation = CLLocation(latitude: lat, longitude: long).locationBaiduFromMars()
  
         //调用百度地图
         if MapType.baiduMap.canOpen { //判断是否能打开 或者安装了 百度地图
