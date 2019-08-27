@@ -1,8 +1,8 @@
 # JumpToThirdMap
 跳转到第三方地图 （百度 谷歌 腾讯 高德 苹果）
 
-   info.plist 文件添加
-
+   
+    info.plist 文件添加
    	<key>LSApplicationQueriesSchemes</key>
 	<array>
 		<string>comgooglemaps</string>
