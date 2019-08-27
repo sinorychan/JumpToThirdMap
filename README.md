@@ -13,11 +13,11 @@
 
     ///  打开第三方地图alert (已检测是否安装第三方地图 未安装不在弹出视图展示 火星坐标系)
     ///
-    /// (若传入其他坐标系 请参看 CLLocation+Extension 文件的坐标系转换方法)
+    ///  (若传入其他坐标系 请参看 CLLocation+Extension 文件的坐标系转换方法)
     /// - Parameters:
     ///   - viewController: 用于弹出当前alert
-    ///   - targetLat:  纬度
-    ///   - targetLong: 经度
+    ///   - targetLat:  纬度 （火星坐标系）
+    ///   - targetLong: 经度  火星坐标系）
     ///   - targetName: 目的地
 
          MapNavigation.showMapsAlert(self,
