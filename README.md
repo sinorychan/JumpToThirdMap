@@ -18,9 +18,9 @@
  
         //调用百度地图
         if MapType.baiduMap.canOpen { //判断是否能打开 或者安装了 百度地图
-            MapNavigation.openThirdMaps(baiduLocation.coordinate.latitude, baiduLocation.coordinate.longitude, name, mapType: .baiduMap)
+            MapNavigation.openThirdMaps(blat, long, name, mapType: .baiduMap)
         }else {
             print("打开失败")
         }
 
-     地图坐标转换工具   CLLocation+Extension.swift
+     地图坐标转换工具 CLLocation+Extension.swift
