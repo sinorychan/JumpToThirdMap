@@ -1,6 +1,16 @@
 # JumpToThirdMap
 跳转到第三方地图 （百度 谷歌 腾讯 高德 苹果）
 
+   info.plist 文件添加
+
+   	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>comgooglemaps</string>
+		<string>iosamap</string>
+		<string>qqmap</string>
+		<string>baidumap</string>
+	</array>
+
     ///  打开第三方地图alert (已检测是否安装第三方地图 未安装不在弹出视图展示 火星坐标系)
     ///
     /// (若传入其他坐标系 请参看 CLLocation+Extension 文件的坐标系转换方法)
